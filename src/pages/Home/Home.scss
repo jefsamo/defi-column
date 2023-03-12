@@ -1,0 +1,44 @@
+.home {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 100px;
+  margin-top: 20px;
+
+  .left-grid {
+    position: relative;
+    img {
+      height: 600px;
+    }
+    .heading-container {
+      position: relative;
+      left: 30px;
+      .heading {
+        bottom: 100px;
+        position: absolute;
+        color: #fff;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+      }
+      .author {
+        position: absolute;
+        bottom: 60px;
+        color: #fff;
+        font-size: 12px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+      }
+      .title {
+        position: absolute;
+        bottom: 25px;
+        color: #fff;
+        font-size: 12px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }
+}
