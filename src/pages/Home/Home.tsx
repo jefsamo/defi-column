@@ -3,6 +3,7 @@ import "./Home.scss";
 import Headline from "../../assets/headline.png";
 import Preview from "../../components/Preview/Preview";
 import Banner from "../../components/Banner/Banner";
+import Shortcut from "../../components/Shortcut/Shortcut";
 
 const Home = () => {
   return (
@@ -33,6 +34,13 @@ const Home = () => {
       <div className="banner-overview">
         <Banner />
       </div>
+      <div className="shortcut-overview">
+        <Shortcut />
+        <Shortcut />
+        <Shortcut />
+        <Shortcut />
+      </div>
+      <hr className="rule" />
     </>
   );
 };

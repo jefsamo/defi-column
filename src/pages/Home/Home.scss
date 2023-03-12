@@ -47,3 +47,16 @@
 .banner-overview {
   margin-top: -60px;
 }
+
+.shortcut-overview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 300px;
+  height: fit-content;
+  gap: 20px;
+  // background: linear-gradient(#000, #000) center/2px 80% no-repeat;
+
+  .shortcut:last-child {
+    border: none;
+  }
+}
