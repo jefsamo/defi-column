@@ -12,3 +12,12 @@ body {
   background: #fcfcfc;
   height: 100vh;
 }
+
+/* img {
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+img:hover {
+  transform: scale(1.5);
+} */
