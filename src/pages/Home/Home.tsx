@@ -4,6 +4,7 @@ import Headline from "../../assets/headline.png";
 import Preview from "../../components/Preview/Preview";
 import Banner from "../../components/Banner/Banner";
 import Shortcut from "../../components/Shortcut/Shortcut";
+import Protocol from "../../components/Protocol/Protocol";
 
 const Home = () => {
   return (
@@ -41,6 +42,13 @@ const Home = () => {
         <Shortcut />
       </div>
       <hr className="rule" />
+      <div className="protocol-overview">
+        <Protocol />
+      </div>
+      <hr className="rule" />
+      <div className="protocol-overview">
+        <Protocol />
+      </div>
     </>
   );
 };
