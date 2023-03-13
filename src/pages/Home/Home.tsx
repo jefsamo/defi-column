@@ -6,6 +6,7 @@ import Banner from "../../components/Banner/Banner";
 import Shortcut from "../../components/Shortcut/Shortcut";
 import Protocol from "../../components/Protocol/Protocol";
 import Popular from "../../components/Popular/Popular";
+import MustRead from "../../components/MustRead/MustRead";
 
 const Home = () => {
   return (
@@ -55,6 +56,9 @@ const Home = () => {
         <Popular />
         <Popular />
         <Popular />
+      </div>
+      <div className="mustread-overview">
+        <MustRead />
       </div>
     </>
   );
