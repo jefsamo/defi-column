@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-family: "Lato";
+  font-style: normal;
+
+  .subscribe {
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      color: #000000;
+    }
+    p {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #86878a;
+      margin: 10px 0;
+    }
+
+    .send-mail {
+      display: flex;
+      width: 60%;
+      input {
+        height: 62px;
+        padding: 10px;
+        color: #b2b3b5;
+        flex: 2;
+      }
+
+      button {
+        height: 62px;
+        flex: 1;
+        cursor: pointer;
+        padding: 22px 15px;
+        width: 133px;
+        // height: 62px;
+        background: #000000;
+        border-radius: 0px 5px 5px 0px;
+        border: none;
+        color: #fff;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+      }
+    }
+  }
+}

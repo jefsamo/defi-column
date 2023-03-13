@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Protocol = () => {
   return (
-    <>
+    <div className="container">
       <h1 className="title">Web3 Defi Projects</h1>
       <div className="protocol">
         <div className="left-protocol">
@@ -69,7 +69,7 @@ const Protocol = () => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

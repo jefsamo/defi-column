@@ -6,9 +6,12 @@
 }
 
 body {
+  background: #fcfcfc;
+  height: 100vh;
+}
+
+.container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  background: #fcfcfc;
-  height: 100vh;
 }

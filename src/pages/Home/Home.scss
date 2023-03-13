@@ -3,6 +3,9 @@
   grid-template-columns: 3fr 2fr;
   gap: 100px;
   margin-top: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 
   .left-grid {
     position: relative;
@@ -54,6 +57,9 @@
   height: 300px;
   height: fit-content;
   gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
   // background: linear-gradient(#000, #000) center/2px 80% no-repeat;
 
   .shortcut:last-child {
@@ -65,5 +71,20 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 100px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
   // row-gap: 50px;
+}
+
+.subscribe-overview {
+  margin-top: 30px;
+  background: #f1f1f1;
+  height: 254px;
+}
+
+.rule-pr {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1200px;
 }

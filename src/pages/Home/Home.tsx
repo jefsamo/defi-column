@@ -7,6 +7,7 @@ import Shortcut from "../../components/Shortcut/Shortcut";
 import Protocol from "../../components/Protocol/Protocol";
 import Popular from "../../components/Popular/Popular";
 import MustRead from "../../components/MustRead/MustRead";
+import Subscribe from "../../components/Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -43,11 +44,11 @@ const Home = () => {
         <Shortcut />
         <Shortcut />
       </div>
-      <hr className="rule" />
+      <hr className="rule-pr" />
       <div className="protocol-overview">
         <Protocol />
       </div>
-      <hr className="rule" />
+      <hr className="rule-pr" />
       <div className="protocol-overview">
         <Protocol />
       </div>
@@ -59,6 +60,9 @@ const Home = () => {
       </div>
       <div className="mustread-overview">
         <MustRead />
+      </div>
+      <div className="subscribe-overview">
+        <Subscribe />
       </div>
     </>
   );
