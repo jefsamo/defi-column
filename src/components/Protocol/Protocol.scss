@@ -55,6 +55,7 @@
       font-style: normal;
       .left-preview {
         position: relative;
+        flex: 2;
         .left {
           h2 {
             font-weight: 600;
@@ -85,6 +86,7 @@
       }
       .right {
         overflow: hidden;
+        flex: 1;
         img {
           height: 100%;
           width: 100%;

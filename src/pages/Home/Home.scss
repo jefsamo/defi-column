@@ -60,3 +60,10 @@
     border: none;
   }
 }
+
+.popular-overview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
+  // row-gap: 50px;
+}

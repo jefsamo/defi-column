@@ -5,6 +5,7 @@ import Preview from "../../components/Preview/Preview";
 import Banner from "../../components/Banner/Banner";
 import Shortcut from "../../components/Shortcut/Shortcut";
 import Protocol from "../../components/Protocol/Protocol";
+import Popular from "../../components/Popular/Popular";
 
 const Home = () => {
   return (
@@ -48,6 +49,12 @@ const Home = () => {
       <hr className="rule" />
       <div className="protocol-overview">
         <Protocol />
+      </div>
+      <div className="popular-overview">
+        <Popular />
+        <Popular />
+        <Popular />
+        <Popular />
       </div>
     </>
   );
