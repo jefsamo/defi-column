@@ -61,9 +61,6 @@ const Home = () => {
       <div className="mustread-overview">
         <MustRead />
       </div>
-      <div className="subscribe-overview">
-        <Subscribe />
-      </div>
     </>
   );
 };

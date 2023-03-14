@@ -4,7 +4,7 @@ import "./Preview.scss";
 
 const Preview = () => {
   return (
-    <Link to="">
+    <Link to="/post/1">
       <div className="preview">
         <div className="left-preview">
           <div className="left">
