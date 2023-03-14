@@ -1,0 +1,47 @@
+.beginner-guide {
+  img {
+    width: 100%;
+  }
+
+  .main-article {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 100px;
+    margin-top: 30px;
+
+    .left-article {
+      .article-content {
+        margin: 20px 0;
+        text-align: justify;
+      }
+
+      .category-date {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+
+    .right-article {
+      .search {
+        display: flex;
+        align-items: center;
+        border: 0.5px solid #d1d1d1;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        input {
+          border: none;
+          flex: 2;
+          outline: none;
+          padding: 0 10px;
+          background: #fcfcfc;
+        }
+
+        .ci-search {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

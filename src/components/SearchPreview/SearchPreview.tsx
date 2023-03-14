@@ -16,8 +16,6 @@ const SearchPreview = () => {
         <Preview />
         <Preview />
         <Preview />
-        <Preview />
-        <Preview />
       </div>
     </div>
   );
