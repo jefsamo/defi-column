@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import Astronaut from "../../assets/astronaut.png";
 import Astronaut2 from "../../assets/astronaut2.png";
 import { Link } from "react-router-dom";
+import SearchPreview from "../../components/SearchPreview/SearchPreview";
 
 const Article = () => {
   return (
@@ -69,124 +70,7 @@ const Article = () => {
           </div>
         </div>
         <div className="right-article">
-          <div className="right-content">
-            <div className="search">
-              <input type="text" name="search" id="" />
-              <CiSearch className="ci-search" />
-            </div>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-            <Link to="">
-              <div className="preview">
-                <div className="left-preview">
-                  <div className="left">
-                    <h2>The Space Model project; Check all about it</h2>
-                    <p className="author">Michael Shopeyin</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <img src={Astronaut2} alt="preview" />
-                </div>
-              </div>
-              <hr className="rule" />
-            </Link>
-          </div>
+          <SearchPreview />
         </div>
       </div>
     </div>

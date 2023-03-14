@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="grid-item">
           <h2>Guides</h2>
-          <Link to="">Beginner's Guide</Link>
+          <Link to="/beginner-guide">Beginner's Guide</Link>
           <Link to="">Web3 Defi Projects</Link>
           <Link to="">Defi Trends</Link>
         </div>

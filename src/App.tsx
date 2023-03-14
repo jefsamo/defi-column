@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Article from "./pages/Article/Article";
+import BeginnerGuide from "./pages/BeginnerGuide/BeginnerGuide";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,6 +32,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/beginner-guide",
+          element: <BeginnerGuide />,
         },
         {
           path: "/post/:id",
