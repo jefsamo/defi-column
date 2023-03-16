@@ -2,16 +2,23 @@ import React from "react";
 import "./Home.scss";
 import Headline from "../../assets/headline.png";
 import Preview from "../../components/Preview/Preview";
+import SkeletonDemo from "../../components/Preview/Skeleton";
 import Banner from "../../components/Banner/Banner";
 import Shortcut from "../../components/Shortcut/Shortcut";
 import Protocol from "../../components/Protocol/Protocol";
 import Popular from "../../components/Popular/Popular";
 import MustRead from "../../components/MustRead/MustRead";
 import Subscribe from "../../components/Subscribe/Subscribe";
+import { Helmet } from "react-helmet";
+import { Divider } from "@mantine/core";
+import { Text, Space } from "@mantine/core";
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>CoderGuides | Home</title>
+      </Helmet>
       <div className="home">
         <div className="left-grid">
           <img src={Headline} alt="" className="headline" />
@@ -33,6 +40,11 @@ const Home = () => {
           <Preview />
           <Preview />
           <Preview />
+
+          {/*  <SkeletonDemo />
+          <SkeletonDemo />
+          <SkeletonDemo />
+          <SkeletonDemo /> */}
         </div>
       </div>
       <div className="banner-overview">

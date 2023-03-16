@@ -7,10 +7,9 @@ import Footer from "./components/Footer/Footer";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Article from "./pages/Article/Article";
 import BeginnerGuide from "./pages/BeginnerGuide/BeginnerGuide";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   const Layout = () => {
     return (
       <>
@@ -19,6 +18,7 @@ function App() {
         <div className="subscribe-overview">
           <Subscribe />
         </div>
+        <ScrollToTop />
         <Footer />
       </>
     );
