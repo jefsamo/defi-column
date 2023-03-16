@@ -1,0 +1,55 @@
+.skeleton-container {
+  display: flex;
+  justify-content: space-between;
+
+  .left-skeleton {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      margin: 10px 0;
+      width: 80%;
+      height: 10px;
+    }
+    .author {
+      margin: 10px 0;
+      width: 50%;
+      height: 10px;
+    }
+
+    .date-category {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      .date {
+        margin: 10px 0;
+        width: 30%;
+        height: 10px;
+      }
+      .category {
+        margin: 10px 0;
+        width: 10%;
+        height: 10px;
+        position: absolute;
+        right: 30px;
+      }
+    }
+  }
+
+  .right-skeleton {
+    flex: 1;
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.rule {
+  border: 0.5px solid #bbbbbb;
+  // width: 90%;
+  // max-width: 1200px;
+  margin: 30px auto;
+}

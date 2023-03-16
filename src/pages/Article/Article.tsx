@@ -6,6 +6,7 @@ import Astronaut from "../../assets/astronaut.png";
 import Astronaut2 from "../../assets/astronaut2.png";
 import { Link } from "react-router-dom";
 import SearchPreview from "../../components/SearchPreview/SearchPreview";
+import Protocol from "../../components/Protocol/Protocol";
 
 const Article = () => {
   return (
